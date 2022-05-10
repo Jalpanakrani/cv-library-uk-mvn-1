@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="automation-practice-maven-1(failed)">
+    <classes>
+      <class name="com.automation.testsuite.WomenCategoryPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="inIt"/>
+          <include name="tearDown"/>
+          <include name="verifyUserShouldAddProductToTheCartSuccessfully"/>
+        </methods>
+      </class> <!-- com.automation.testsuite.WomenCategoryPageTest -->
+    </classes>
+  </test> <!-- automation-practice-maven-1(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
